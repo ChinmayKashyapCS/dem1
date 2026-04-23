@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone') {
+        stage('Build') {
             steps {
                 git 'https://github.com/ChinmayKashyapCS/dem1.git'
             }
